@@ -3,7 +3,6 @@
 ## Pre-requested:
 - Libraries: pytorch (1.8.0), numpy, h5py, opencv, skimage, pandas, matplotlib, scipy, nibabel
 
-
 ## Dataset format:
 - The training and testing/validation dataset should be stored in a h5 file. In the h5file, there should be 2 datasets under the name 'images','labels'
 - The shape of h5 dataset 'images' is supposed to be **N x 1 x H x W**
